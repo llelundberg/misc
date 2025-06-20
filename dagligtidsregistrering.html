@@ -11,6 +11,10 @@
   action="https://script.google.com/macros/s/AKfycbwCuV7Tbak_EsAGgleoAt6uwduNdoAYpZMcuKDFE5Qsp1akK4uAC3B1RKXJ5dLDjwnfRQ/exec"
 >
   <input name="Datum" type="date" placeholder="Datum" required><br />
+  <select name="Kund" id="Kund">
+    <option value="Botkyrka kommun">Botkyrka kommun</option>
+    <option value="Polismyndigheten">Polismyndigheten</option>
+  </select>
   <input name="Kund" type="text" placeholder="Kund" required list="Kunder"><datalist id="Kunder"><option value="BK"><option value="Polisen"></datalist><br />
   <input name="Klockslag" type="text" placeholder="Klockslag" required><br />
   <input name="Plats" type="text" placeholder="Plats" required list="Platser"><datalist id="Platser"><option value="Kontoret"><option value="Hemma"><option value="Övrigt"></datalist><br />
